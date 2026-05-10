@@ -3,7 +3,7 @@
 A professional yet whimsical personal portfolio designed to showcase my journey as a Full-Stack Developer. This site features a custom "Doodle" aesthetic, interactive elements, and a clean, responsive layout.
 
 LIVE LINK ✨
-
+https://sanjana-sinha-portfolio.vercel.app/
 
 ## ✨ Features
 - **Dynamic Typewriter Effect:** Personalized greeting and role identification.
