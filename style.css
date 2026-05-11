@@ -28,7 +28,7 @@ body {
 /* Page 1 - NEW BACKGROUND IMAGE  */
 #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                      url('https://i.pinimg.com/1200x/8a/5b/bf/8a5bbf61147f32eb1cbb7f614b143e05.jpg');
+    url("https://i.pinimg.com/736x/ca/65/65/ca65653e486a7e1aa264531b23a934d6.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
