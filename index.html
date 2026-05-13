@@ -12,15 +12,11 @@
 
     <nav class="compact-nav">
         <div class="nav-links">
-            <a href="#home" class="nav-item">
-                <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="folder" class="nav-icon"> Home
-            </a>
-            <a href="#work" class="nav-item">
-                <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="folder" class="nav-icon"> Work
-            </a>
-            <a href="#skills" class="nav-item">
-                <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="folder" class="nav-icon"> Skills
-            </a>
+            <a href="#home" class="nav-item"><img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="nav-icon"> Home</a>
+            <a href="#about" class="nav-item"><img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="nav-icon"> About</a>
+            <a href="#work" class="nav-item"><img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="nav-icon"> Work</a>
+            <a href="#internship" class="nav-item"><img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="nav-icon"> Internship</a>
+            <a href="#skills" class="nav-item"><img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" class="nav-icon"> Skills</a>
         </div>
         <button id="theme-toggle">🌙</button>
     </nav>
@@ -33,18 +29,13 @@
                 </div>
                 <p class="sub-intro">Building digital dreams with code and coffee ☕</p>
                 <p class="role-desc highlighted-text">Frontend Focused | Full Stack Developer | B.Sc Computer Science Student</p>
-                
                 <div class="social-icons">
                     <a href="https://github.com/SanjanaSinha-1306" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/sanjana-kumari-sinha-b8a389354" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="mailto:snjnha1306@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
-
-                <a href="photo/Sanjana_resume.pdf" download class="resume-btn">
-                    <i class="fas fa-file-download"></i> Download Resume
-                </a>
+                <a href="photo/Sanjana_resume.pdf" download class="resume-btn"><i class="fas fa-file-download"></i> Download Resume</a>
             </div>
-
             <div class="doodle-sidebar">
                 <div class="doodle-avatar highlight-circle">
                     <img src="photo/Screenshot (253).png" alt="Sanjana Doodle">
@@ -53,7 +44,30 @@
         </div>
     </section>
 
-    <section class="page work-section" id="work">
+    <section class="page common-bg" id="about">
+    <div class="hero-layout">
+        <div class="doodle-sidebar">
+            <div class="doodle-avatar about-doodle-container">
+                <img src="https://i.pinimg.com/736x/81/14/1b/81141bd8934ae512344c459812af705f.jpg" onerror="this.src='https://api.dicebear.com/7.x/bottts-neutral/svg?seed=SanjanaSinha&backgroundColor=ffb7c5'" alt="Sanjana Developer Doodle">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h2 class="section-title" style="text-align: left;">About Me ✨</h2>
+            <div class="glass-text-box">
+                <p class="about-text-readable">
+                    I am a dedicated <strong>4th-semester B.Sc. Computer Science</strong> student at Surya Sen Mahavidyalaya. 
+                    My focus lies in mastering the <strong>MERN stack and Next.js</strong> to build fast, scalable web applications.
+                </p>
+                <p class="about-text-readable">
+                    I enjoy solving complex architectural problems and turning them into <strong>seamless user experiences</strong>. 
+                    Currently, I'm bridging the gap between design and high-performance code, one project at a time.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="page common-bg" id="work">
         <h2 class="section-title">My Little Creations 🎨</h2>
         <div class="project-horizontal-grid">
             <div class="work-card">
@@ -65,7 +79,6 @@
                     <a href="https://github.com/SanjanaSinha-1306/mystery-message-app" class="btn-code" target="_blank">Code 💻</a>
                 </div>
             </div>
-
             <div class="work-card">
                 <img src="photo/Screenshot (243).png" alt="To Do App" class="preview">
                 <h3>Pro-Tasker To-Do ✅</h3>
@@ -88,19 +101,35 @@
         </div>
     </section>
 
-    <section class="page skills-section" id="skills">
+    <section class="page common-bg" id="internship">
+        <div class="centered-skills-wrapper">
+            <h2 class="section-title">Internship Learning 🎓</h2>
+            <div class="internship-card">
+                <div class="internship-badge">Current Role</div>
+                <h3>Generative Website using AI</h3>
+                <p class="about-text">Currently exploring the intersection of Generative AI and Web Development. I'm working on systems that can dynamically generate content and UI components using advanced AI models.</p>
+                <ul class="intern-list">
+                    <li><i class="fas fa-check-circle"></i> AI API Integration</li>
+                    <li><i class="fas fa-check-circle"></i> Prompt Engineering for Web UI</li>
+                    <li><i class="fas fa-check-circle"></i> Dynamic Content Generation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="page common-bg" id="skills">
         <div class="centered-skills-wrapper">
             <h2 class="section-title">My Toolkit 🛠️</h2>
             <div class="skills-grid-3x3">
-                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><span>HTML5</span></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><span>CSS3</span></a>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></a>
-                <a href="https://reactjs.org/" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><span>React.js</span></a>
-                <a href="https://nextjs.org/docs" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="next-logo"><span>Next.js</span></a>
-                <a href="https://tailwindcss.com/docs" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"><span>Tailwind</span></a>
-                <a href="https://nodejs.org/docs" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><span>Node.js</span></a>
-                <a href="https://www.mongodb.com/docs" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><span>MongoDB</span></a>
-                <a href="https://docs.github.com/en" target="_blank" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><span>Git & GitHub</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><span>HTML5</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><span>CSS3</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><span>React.js</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" class="next-logo"><span>Next.js</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"><span>Tailwind</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><span>Node.js</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><span>MongoDB</span></a>
+                <a href="#" class="skill-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><span>Git & GitHub</span></a>
             </div>
         </div>
     </section>
