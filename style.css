@@ -358,6 +358,12 @@ h1 {
         text-align: center;
     }
 }
+.project-horizontal-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to drop to a second line */
+    justify-content: center;
+    gap: 30px;
+}
 /* --- RESPONSIVE DESIGN (MEDIA QUERIES) --- */
 
 /* For Tablets and Small Laptops */
